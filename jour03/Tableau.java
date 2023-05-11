@@ -10,7 +10,17 @@ public class Tableau {
         System.out.println(Arrays.toString(tableau));
         System.out.println(tableau[1]);
         //Job2
-
-
+        int[] monTableau = {12,6,76,89};
+        System.out.println(Arrays.toString(monTableau));
+        monTableau[0] = 24;
+        monTableau[1] = 12;
+        monTableau[2] = 152;
+        monTableau[3] = 178;
+        System.out.println(Arrays.toString(monTableau));
+        //Job3
+        String[] prenoms = {"Josette","John","Myrtille","Marc"};
+        System.out.println(prenoms[1]);
+        prenoms[2] = "Mireille";
+        System.out.println(Arrays.toString(prenoms));
     }
 }
