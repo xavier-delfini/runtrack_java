@@ -1,3 +1,3 @@
 public class TrieMatrice {
-    while
+    for(i=0;i>)
 }
