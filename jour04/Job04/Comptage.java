@@ -10,12 +10,15 @@ public class Comptage {
         System.out.println("Veuillez entrer un nombre");
         String userinput1 = input.nextLine();
         int nombre = Integer.parseInt(userinput1);
-
+        int resultat = 0;
         for (int i=0;i<nombre+1;i++){
             System.out.println(i);
+            resultat=resultat+i;
         }
         long tempsExecution =System.nanoTime() -startTime;
+        System.out.println("Total : "+resultat);
         System.out.println("Exécution du programme finalisé en :" + tempsExecution/10000000 +"millisecondes");
+
     }
 
 }
